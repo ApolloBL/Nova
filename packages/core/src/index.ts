@@ -19,8 +19,8 @@ export type {
 export { MAX_QUERY_KEYS } from "./query.js";
 export type { QueryRecord, QueryValue } from "./query.js";
 export type { Middleware, Next } from "./middleware.js";
-// Re-exported so consumers don't need a separate @novajs/validator import.
-export type { StandardSchemaV1 } from "@novajs/validator";
+// Re-exported so consumers don't need a separate @novats/validator import.
+export type { StandardSchemaV1 } from "@novats/validator";
 export {
   HttpError,
   STATUS_NAMES,

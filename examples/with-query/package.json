@@ -1,5 +1,5 @@
 {
-  "name": "@novajs-examples/with-query",
+  "name": "@novats-examples/with-query",
   "version": "0.0.0",
   "private": true,
   "description": "Query-string parsing via ctx.query in Nova.",
@@ -9,7 +9,7 @@
     "dev": "tsx watch src/server.ts"
   },
   "dependencies": {
-    "@novajs/core": "workspace:*"
+    "@novats/core": "workspace:*"
   },
   "devDependencies": {
     "tsx": "4.7.1"

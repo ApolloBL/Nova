@@ -41,7 +41,7 @@ importers:
 
   examples/hello-world:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -51,7 +51,7 @@ importers:
 
   examples/with-errors:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -61,7 +61,7 @@ importers:
 
   examples/with-middleware:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -71,10 +71,10 @@ importers:
 
   examples/with-openapi:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@novajs/openapi':
+      '@novats/openapi':
         specifier: workspace:*
         version: link:../../packages/openapi
       zod:
@@ -90,7 +90,7 @@ importers:
 
   examples/with-params:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -100,7 +100,7 @@ importers:
 
   examples/with-query:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -110,7 +110,7 @@ importers:
 
   examples/with-validation:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../../packages/core
       zod:
@@ -123,25 +123,25 @@ importers:
 
   packages/core:
     dependencies:
-      '@novajs/router':
+      '@novats/router':
         specifier: workspace:^
         version: link:../router
-      '@novajs/validator':
+      '@novats/validator':
         specifier: workspace:^
         version: link:../validator
 
   packages/openapi:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:^
         version: link:../core
-      '@novajs/validator':
+      '@novats/validator':
         specifier: workspace:^
         version: link:../validator
 
   packages/plugins:
     devDependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../core
 
@@ -151,7 +151,7 @@ importers:
 
   playground:
     dependencies:
-      '@novajs/core':
+      '@novats/core':
         specifier: workspace:*
         version: link:../packages/core
     devDependencies:

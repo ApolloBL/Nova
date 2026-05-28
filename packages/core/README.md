@@ -1,4 +1,4 @@
-# @novajs/core
+# @novats/core
 
 The `Nova` application, the Node HTTP adapter, and the request `Context`.
 
@@ -7,13 +7,13 @@ The `Nova` application, the Node HTTP adapter, and the request `Context`.
 ## Install
 
 ```bash
-pnpm add @novajs/core
+pnpm add @novats/core
 ```
 
 ## Quick start
 
 ```ts
-import { Nova } from "@novajs/core";
+import { Nova } from "@novats/core";
 
 const app = new Nova();
 
@@ -203,7 +203,7 @@ app.get("/", (ctx) => ({ id: ctx.state["requestId"] }));
 For typed access, augment the `ContextState` interface:
 
 ```ts
-declare module "@novajs/core" {
+declare module "@novats/core" {
   interface ContextState {
     readonly requestId?: string;
     readonly user?: { id: string; name: string };
@@ -244,7 +244,7 @@ Schema, or any other validator** that adopts the spec — without a dependency
 on any of them.
 
 ```ts
-import { Nova } from "@novajs/core";
+import { Nova } from "@novats/core";
 import { z } from "zod";
 
 const app = new Nova();
@@ -330,7 +330,7 @@ from the wire — useful for unauthenticated requests with large payloads.
 The `StandardSchemaV1` interface is small enough to implement by hand:
 
 ```ts
-import type { StandardSchemaV1 } from "@novajs/core";
+import type { StandardSchemaV1 } from "@novats/core";
 
 const PositiveInt: StandardSchemaV1<unknown, number> = {
   "~standard": {
@@ -351,7 +351,7 @@ HTTP response. Throwing anything else (`Error`, `string`, …) produces a
 generic `500`.
 
 ```ts
-import { Nova, HttpError, notFound, unauthorized } from "@novajs/core";
+import { Nova, HttpError, notFound, unauthorized } from "@novats/core";
 
 const app = new Nova();
 

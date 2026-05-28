@@ -1,5 +1,5 @@
-import { Nova, type ListenResult } from "@novajs/core";
-import type { StandardSchemaV1 } from "@novajs/validator";
+import { Nova, type ListenResult } from "@novats/core";
+import type { StandardSchemaV1 } from "@novats/validator";
 import { afterEach, describe, expect, it } from "vitest";
 import { openapi } from "./plugin.js";
 

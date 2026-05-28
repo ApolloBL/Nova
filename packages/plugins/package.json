@@ -1,5 +1,5 @@
 {
-  "name": "@novajs/plugins",
+  "name": "@novats/plugins",
   "version": "1.0.0",
   "description": "Nova framework — first-party plugins",
   "keywords": [
@@ -51,9 +51,9 @@
     "node": ">=18.17.0"
   },
   "peerDependencies": {
-    "@novajs/core": "workspace:^"
+    "@novats/core": "workspace:^"
   },
   "devDependencies": {
-    "@novajs/core": "workspace:*"
+    "@novats/core": "workspace:*"
   }
 }

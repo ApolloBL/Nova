@@ -12,7 +12,7 @@
  * await app.register(cors({ origin: /\.example\.com$/, credentials: true }));
  * ```
  */
-import type { Context, Middleware, Plugin } from "@novajs/core";
+import type { Context, Middleware, Plugin } from "@novats/core";
 
 /**
  * Allowed-origin policy.

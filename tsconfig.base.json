@@ -29,11 +29,11 @@
 
     "baseUrl": ".",
     "paths": {
-      "@novajs/core": ["./packages/core/src/index.ts"],
-      "@novajs/router": ["./packages/router/src/index.ts"],
-      "@novajs/validator": ["./packages/validator/src/index.ts"],
-      "@novajs/openapi": ["./packages/openapi/src/index.ts"],
-      "@novajs/plugins": ["./packages/plugins/src/index.ts"]
+      "@novats/core": ["./packages/core/src/index.ts"],
+      "@novats/router": ["./packages/router/src/index.ts"],
+      "@novats/validator": ["./packages/validator/src/index.ts"],
+      "@novats/openapi": ["./packages/openapi/src/index.ts"],
+      "@novats/plugins": ["./packages/plugins/src/index.ts"]
     }
   }
 }

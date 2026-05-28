@@ -1,5 +1,5 @@
 {
-  "name": "@novajs-examples/with-openapi",
+  "name": "@novats-examples/with-openapi",
   "version": "0.0.0",
   "private": true,
   "description": "Auto-generated OpenAPI 3.1 from Nova routes + Zod schemas.",
@@ -9,8 +9,8 @@
     "dev": "tsx watch src/server.ts"
   },
   "dependencies": {
-    "@novajs/core": "workspace:*",
-    "@novajs/openapi": "workspace:*",
+    "@novats/core": "workspace:*",
+    "@novats/openapi": "workspace:*",
     "zod": "^3.24.1",
     "zod-to-json-schema": "^3.23.5"
   },

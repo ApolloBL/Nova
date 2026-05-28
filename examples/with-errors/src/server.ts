@@ -10,7 +10,7 @@
  *   4. The 5xx-hidden vs 4xx-exposed message policy.
  */
 import { randomUUID } from "node:crypto";
-import { HttpError, Nova, badRequest, notFound, unauthorized } from "@novajs/core";
+import { HttpError, Nova, badRequest, notFound, unauthorized } from "@novats/core";
 
 const app = new Nova();
 

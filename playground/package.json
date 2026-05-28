@@ -1,5 +1,5 @@
 {
-  "name": "@novajs/playground",
+  "name": "@novats/playground",
   "version": "0.0.0",
   "private": true,
   "description": "Internal scratchpad for testing Nova during development. Not published.",
@@ -9,7 +9,7 @@
     "start": "tsx src/index.ts"
   },
   "dependencies": {
-    "@novajs/core": "workspace:*"
+    "@novats/core": "workspace:*"
   },
   "devDependencies": {
     "tsx": "4.7.1"

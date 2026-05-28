@@ -14,11 +14,11 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@novajs/core": r("./packages/core/src/index.ts"),
-      "@novajs/router": r("./packages/router/src/index.ts"),
-      "@novajs/validator": r("./packages/validator/src/index.ts"),
-      "@novajs/openapi": r("./packages/openapi/src/index.ts"),
-      "@novajs/plugins": r("./packages/plugins/src/index.ts"),
+      "@novats/core": r("./packages/core/src/index.ts"),
+      "@novats/router": r("./packages/router/src/index.ts"),
+      "@novats/validator": r("./packages/validator/src/index.ts"),
+      "@novats/openapi": r("./packages/openapi/src/index.ts"),
+      "@novats/plugins": r("./packages/plugins/src/index.ts"),
     },
   },
 });

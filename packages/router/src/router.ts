@@ -17,7 +17,7 @@ const EMPTY_PARAMS: Readonly<Record<string, string>> = Object.freeze({});
  * trie for routes containing `:param` placeholders. Static routes always
  * win — `/users/me` beats `/users/:id` for the request `GET /users/me`.
  *
- * Generic over the handler type so `@novajs/core` can specialize without
+ * Generic over the handler type so `@novats/core` can specialize without
  * coupling the router to the framework.
  */
 export class Router<H> {

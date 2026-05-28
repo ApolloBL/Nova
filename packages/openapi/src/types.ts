@@ -1,4 +1,4 @@
-import type { StandardSchemaV1 } from "@novajs/validator";
+import type { StandardSchemaV1 } from "@novats/validator";
 
 /**
  * Translates a Standard Schema into JSON Schema (loose 2020-12 /

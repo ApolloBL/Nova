@@ -1,4 +1,4 @@
-import type { StandardSchemaV1 } from "@novajs/validator";
+import type { StandardSchemaV1 } from "@novats/validator";
 import { afterEach, describe, expect, it } from "vitest";
 import { Nova } from "./application.js";
 import {

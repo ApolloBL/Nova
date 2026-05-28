@@ -1,5 +1,5 @@
 {
-  "name": "@novajs/router",
+  "name": "@novats/router",
   "version": "1.0.0",
   "description": "Nova framework — high-performance route matching with template-literal-typed parameters.",
   "keywords": [

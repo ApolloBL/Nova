@@ -6,7 +6,7 @@ Demonstrates Nova's route parameters and automatic `ctx.params` typing.
 
 ```bash
 pnpm install
-pnpm --filter @novajs-examples/with-params start
+pnpm --filter @novats-examples/with-params start
 ```
 
 ```bash

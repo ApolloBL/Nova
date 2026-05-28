@@ -16,7 +16,7 @@ export interface RawNodeHttp {
  * augmentation to add typed fields:
  *
  * ```ts
- * declare module "@novajs/core" {
+ * declare module "@novats/core" {
  *   interface ContextState {
  *     readonly user?: { id: string; name: string };
  *   }

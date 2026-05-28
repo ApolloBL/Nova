@@ -1,7 +1,7 @@
 # Changesets
 
 This folder contains the changesets used to manage versioning and publishing of the
-`@novajs/*` packages.
+`@novats/*` packages.
 
 See https://github.com/changesets/changesets for documentation.
 

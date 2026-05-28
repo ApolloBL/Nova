@@ -1,5 +1,5 @@
 {
-  "name": "@novajs/openapi",
+  "name": "@novats/openapi",
   "version": "1.0.0",
   "description": "Nova framework — automatic OpenAPI 3.1",
   "keywords": [
@@ -52,7 +52,7 @@
     "node": ">=18.17.0"
   },
   "dependencies": {
-    "@novajs/core": "workspace:^",
-    "@novajs/validator": "workspace:^"
+    "@novats/core": "workspace:^",
+    "@novats/validator": "workspace:^"
   }
 }

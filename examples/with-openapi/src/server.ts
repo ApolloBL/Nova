@@ -12,9 +12,9 @@
  * `schemaConverter` function — Zod (≥ 3.24), Valibot, ArkType all plug in
  * via their own JSON-Schema bridge.
  */
-import { Nova } from "@novajs/core";
-import { openapi, type SchemaConverter } from "@novajs/openapi";
-import type { StandardSchemaV1 } from "@novajs/validator";
+import { Nova } from "@novats/core";
+import { openapi, type SchemaConverter } from "@novats/openapi";
+import type { StandardSchemaV1 } from "@novats/validator";
 import { z } from "zod";
 import { zodToJsonSchema } from "zod-to-json-schema";
 

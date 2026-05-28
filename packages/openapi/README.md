@@ -1,4 +1,4 @@
-# @novajs/openapi
+# @novats/openapi
 
 Automatic OpenAPI 3.1 specification generator for Nova applications.
 
@@ -13,14 +13,14 @@ dependency.
 ## Install
 
 ```bash
-pnpm add @novajs/core @novajs/openapi
+pnpm add @novats/core @novats/openapi
 ```
 
 ## Quick start (with Zod)
 
 ```ts
-import { Nova } from "@novajs/core";
-import { openapi, type SchemaConverter } from "@novajs/openapi";
+import { Nova } from "@novats/core";
+import { openapi, type SchemaConverter } from "@novats/openapi";
 import { z } from "zod";
 import { zodToJsonSchema } from "zod-to-json-schema";
 
@@ -156,7 +156,7 @@ same regardless of which one you pick.
 For tests or non-HTTP use cases, the generator is exported directly:
 
 ```ts
-import { generateOpenApiDocument } from "@novajs/openapi";
+import { generateOpenApiDocument } from "@novats/openapi";
 
 const doc = generateOpenApiDocument(app.routes(), {
   info: { title: "T", version: "1" },

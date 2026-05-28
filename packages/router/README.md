@@ -1,4 +1,4 @@
-# @novajs/router
+# @novats/router
 
 Route matching for [Nova](../../README.md). Generic over the handler type so
 it can be reused outside the framework.
@@ -8,10 +8,10 @@ it can be reused outside the framework.
 ## Install
 
 ```bash
-pnpm add @novajs/router
+pnpm add @novats/router
 ```
 
-Most users never depend on this package directly — `@novajs/core` re-uses it
+Most users never depend on this package directly — `@novats/core` re-uses it
 internally. It is published separately so other tools can build on top of the
 same primitives.
 
@@ -20,7 +20,7 @@ same primitives.
 Exact-match matching only. Trie-based parameter routes land in v0.2.
 
 ```ts
-import { Router } from "@novajs/router";
+import { Router } from "@novats/router";
 
 const router = new Router<() => string>();
 

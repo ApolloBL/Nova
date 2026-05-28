@@ -8,7 +8,7 @@ underlying contract.
 
 ```bash
 pnpm install
-pnpm --filter @novajs-examples/with-validation start
+pnpm --filter @novats-examples/with-validation start
 ```
 
 ```bash
@@ -32,7 +32,7 @@ curl -i -X POST -H "content-type: application/json" \
 
 | Feature                            | How                                            |
 | ---------------------------------- | ---------------------------------------------- |
-| Vendor-neutral validation contract | `StandardSchemaV1` from `@novajs/core`         |
+| Vendor-neutral validation contract | `StandardSchemaV1` from `@novats/core`         |
 | Zod integration                    | `z.object({...})` passed as `{ body: schema }` |
 | Inferred body type                 | `ctx.body.*` typed from the Zod schema         |
 | 4xx vs 4xx error categories        | 400 invalid JSON, 413 too large, 422 invalid   |

@@ -1,4 +1,4 @@
-# @novajs/plugins
+# @novats/plugins
 
 First-party plugins for the [Nova](../../README.md) framework.
 
@@ -10,10 +10,10 @@ ready to pass to `app.register(...)`.
 ## Install
 
 ```bash
-pnpm add @novajs/core @novajs/plugins
+pnpm add @novats/core @novats/plugins
 ```
 
-`@novajs/plugins` declares `@novajs/core` as a peer dependency. Install both —
+`@novats/plugins` declares `@novats/core` as a peer dependency. Install both —
 they share the same Nova instance.
 
 ## Plugins shipped
@@ -26,8 +26,8 @@ they share the same Nova instance.
 ## `cors`
 
 ```ts
-import { Nova } from "@novajs/core";
-import { cors } from "@novajs/plugins";
+import { Nova } from "@novats/core";
+import { cors } from "@novats/plugins";
 
 const app = new Nova();
 
@@ -90,8 +90,8 @@ inside a window of `windowMs` milliseconds. The `(N+1)`-th request inside
 the window is rejected with `429`.
 
 ```ts
-import { Nova } from "@novajs/core";
-import { rateLimit } from "@novajs/plugins";
+import { Nova } from "@novats/core";
+import { rateLimit } from "@novats/plugins";
 
 const app = new Nova();
 
@@ -154,7 +154,7 @@ rateLimit({
 Implement the `RateLimitStore` interface and pass it via `store`:
 
 ```ts
-import type { RateLimitStore } from "@novajs/plugins";
+import type { RateLimitStore } from "@novats/plugins";
 
 class RedisRateLimitStore implements RateLimitStore {
   async increment(key: string, windowMs: number) {

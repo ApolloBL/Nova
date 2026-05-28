@@ -1,4 +1,4 @@
-import { Nova, type Context, type ListenResult } from "@novajs/core";
+import { Nova, type Context, type ListenResult } from "@novats/core";
 import { afterEach, describe, expect, it } from "vitest";
 import { InMemoryRateLimitStore, rateLimit, type RateLimitStore } from "./rate-limit.js";
 

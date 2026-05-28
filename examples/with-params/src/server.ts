@@ -5,7 +5,7 @@
  * annotation. Hover any `ctx.params.*` access in your editor: the shape
  * matches the placeholders in the path string exactly.
  */
-import { Nova } from "@novajs/core";
+import { Nova } from "@novats/core";
 
 const app = new Nova();
 

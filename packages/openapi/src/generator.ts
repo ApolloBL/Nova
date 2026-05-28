@@ -2,8 +2,8 @@
  * Pure OpenAPI 3.1 document generator. Stateless — given a route snapshot
  * and options, returns a fresh document. Caching belongs in the plugin.
  */
-import { STATUS_NAMES, type RegisteredRoute } from "@novajs/core";
-import type { StandardSchemaV1 } from "@novajs/validator";
+import { STATUS_NAMES, type RegisteredRoute } from "@novats/core";
+import type { StandardSchemaV1 } from "@novats/validator";
 import type {
   OpenApiDocument,
   OpenApiOperation,

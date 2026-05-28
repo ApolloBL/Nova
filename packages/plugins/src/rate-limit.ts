@@ -11,7 +11,7 @@
  * after validating the proxy chain — the default uses the TCP peer, which
  * is the proxy itself.
  */
-import type { Context, Middleware, Plugin } from "@novajs/core";
+import type { Context, Middleware, Plugin } from "@novats/core";
 
 /** Result of a single counter increment. */
 export interface RateLimitIncrement {

@@ -1,4 +1,4 @@
-import { Nova, type ListenResult } from "@novajs/core";
+import { Nova, type ListenResult } from "@novats/core";
 import { afterEach, describe, expect, it } from "vitest";
 import { cors } from "./cors.js";
 

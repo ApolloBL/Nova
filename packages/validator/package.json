@@ -1,5 +1,5 @@
 {
-  "name": "@novajs/validator",
+  "name": "@novats/validator",
   "version": "1.0.0",
   "description": "Nova framework — Standard Schema v1 adapter. Vendor-neutral validation (Zod, Valibot, ArkType, …).",
   "keywords": [

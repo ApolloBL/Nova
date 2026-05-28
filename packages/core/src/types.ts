@@ -1,5 +1,5 @@
-import type { Method } from "@novajs/router";
-import type { StandardSchemaV1 } from "@novajs/validator";
+import type { Method } from "@novats/router";
+import type { StandardSchemaV1 } from "@novats/validator";
 // Type-only — `verbatimModuleSyntax` erases this so the circularity with
 // application.ts has no runtime effect.
 import type { Nova } from "./application.js";
@@ -26,7 +26,7 @@ export type Handler<
 
 /**
  * Per-route metadata consumed by the OpenAPI generator. Lives in core
- * (rather than `@novajs/openapi`) so route registration can carry the data
+ * (rather than `@novats/openapi`) so route registration can carry the data
  * without a circular package dependency.
  */
 export interface OpenApiRouteMetadata {

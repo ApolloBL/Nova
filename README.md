@@ -17,30 +17,30 @@
   the response (timing, request-id) after the handler has run.
 - **Plugins, not magic.** `app.register(plugin)` for boot-time wiring, distinct
   from per-request middleware, with LIFO `onClose` cleanup.
-- **Zero runtime dependencies** in `@novajs/core`, `@novajs/router`, and
-  `@novajs/validator`.
+- **Zero runtime dependencies** in `@novats/core`, `@novats/router`, and
+  `@novats/validator`.
 
 ## Install
 
 ```bash
-pnpm add @novajs/core
+pnpm add @novats/core
 # or
-npm install @novajs/core
+npm install @novats/core
 ```
 
 Optional companion packages:
 
 | Package             | What it adds                                                 |
 | ------------------- | ------------------------------------------------------------ |
-| `@novajs/plugins`   | `cors`, `rateLimit` plugins (first-party).                   |
-| `@novajs/openapi`   | Auto-generated OpenAPI 3.1 from your routes + Swagger UI.    |
-| `@novajs/router`    | Standalone matcher (already pulled in by `@novajs/core`).    |
-| `@novajs/validator` | Standard Schema types (already pulled in by `@novajs/core`). |
+| `@novats/plugins`   | `cors`, `rateLimit` plugins (first-party).                   |
+| `@novats/openapi`   | Auto-generated OpenAPI 3.1 from your routes + Swagger UI.    |
+| `@novats/router`    | Standalone matcher (already pulled in by `@novats/core`).    |
+| `@novats/validator` | Standard Schema types (already pulled in by `@novats/core`). |
 
 ## Quick start
 
 ```ts
-import { Nova } from "@novajs/core";
+import { Nova } from "@novats/core";
 import { z } from "zod";
 
 const app = new Nova();
@@ -74,8 +74,8 @@ parameters, no separate type files.
 | v0.1     | HTTP server, router, `listen()`, JSON responses               | ✅     |
 | v0.2     | Middleware, route params, query parsing, error handling       | ✅     |
 | v0.3     | Validation + automatic TypeScript inference (Standard Schema) | ✅     |
-| v0.4     | Plugin system (`@novajs/plugins`)                             | ✅     |
-| v0.5     | Automatic OpenAPI generation (`@novajs/openapi`)              | ✅     |
+| v0.4     | Plugin system (`@novats/plugins`)                             | ✅     |
+| v0.5     | Automatic OpenAPI generation (`@novats/openapi`)              | ✅     |
 | **v1.0** | **API stability + documentation + security audit**            | ✅     |
 
 ## Feature matrix
@@ -133,17 +133,17 @@ Runnable demos in [`examples/`](./examples/):
 | [with-validation](./examples/with-validation/) | Body / query / params validation via Standard Schema (Zod). |
 | [with-openapi](./examples/with-openapi/)       | Auto-generated OpenAPI 3.1 + Swagger UI.                    |
 
-Each example is a runnable workspace package — `pnpm --filter @novajs-examples/<name> start`.
+Each example is a runnable workspace package — `pnpm --filter @novats-examples/<name> start`.
 
 ## Monorepo layout
 
 ```
 packages/
-  core/        @novajs/core        — server, application, context, errors, middleware
-  router/      @novajs/router      — route matching, trie, params
-  validator/   @novajs/validator   — Standard Schema v1 adapter
-  plugins/     @novajs/plugins     — cors, rate-limit
-  openapi/     @novajs/openapi     — OpenAPI 3.1 generator + Swagger UI
+  core/        @novats/core        — server, application, context, errors, middleware
+  router/      @novats/router      — route matching, trie, params
+  validator/   @novats/validator   — Standard Schema v1 adapter
+  plugins/     @novats/plugins     — cors, rate-limit
+  openapi/     @novats/openapi     — OpenAPI 3.1 generator + Swagger UI
 examples/      — runnable example apps (one per feature)
 playground/    — internal scratchpad
 ```

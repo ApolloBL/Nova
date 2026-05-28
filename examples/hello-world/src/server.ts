@@ -1,4 +1,4 @@
-import { Nova } from "@novajs/core";
+import { Nova } from "@novats/core";
 
 const app = new Nova();
 

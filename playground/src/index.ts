@@ -1,13 +1,13 @@
 /**
  * Playground server.
  *
- * Run with `pnpm --filter @novajs/playground dev` (auto-reloads on save) or
- * `pnpm --filter @novajs/playground start` (single run).
+ * Run with `pnpm --filter @novats/playground dev` (auto-reloads on save) or
+ * `pnpm --filter @novats/playground start` (single run).
  *
  * This file is not part of any published package. Use it to poke at Nova
  * during development.
  */
-import { Nova } from "@novajs/core";
+import { Nova } from "@novats/core";
 
 const app = new Nova();
 

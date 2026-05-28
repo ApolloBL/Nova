@@ -12,7 +12,7 @@ Valibot and ArkType have equivalent bridges.
 
 ```bash
 pnpm install
-pnpm --filter @novajs-examples/with-openapi start
+pnpm --filter @novats-examples/with-openapi start
 ```
 
 ```bash

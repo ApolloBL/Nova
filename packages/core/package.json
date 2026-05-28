@@ -1,5 +1,5 @@
 {
-  "name": "@novajs/core",
+  "name": "@novats/core",
   "version": "1.0.0",
   "description": "Nova framework — core",
   "keywords": [
@@ -54,7 +54,7 @@
     "node": ">=18.17.0"
   },
   "dependencies": {
-    "@novajs/router": "workspace:^",
-    "@novajs/validator": "workspace:^"
+    "@novats/router": "workspace:^",
+    "@novats/validator": "workspace:^"
   }
 }

@@ -1,6 +1,6 @@
 import { createServer, type IncomingMessage, type Server, type ServerResponse } from "node:http";
-import { Router, type Method } from "@novajs/router";
-import { validateStandard, type StandardSchemaV1 } from "@novajs/validator";
+import { Router, type Method } from "@novats/router";
+import { validateStandard, type StandardSchemaV1 } from "@novats/validator";
 import { readJsonBody } from "./body.js";
 import { Context, FINALIZE, SET_BODY, SET_PARAMS, SET_QUERY } from "./context.js";
 import { HttpError, STATUS_NAMES, unprocessableEntity } from "./http-error.js";

@@ -16,7 +16,7 @@
  * the spec — swap `z.object(...)` for `v.object(...)` (Valibot) or
  * `type({...})` (ArkType) and the rest stays the same.
  */
-import { Nova, type StandardSchemaV1 } from "@novajs/core";
+import { Nova, type StandardSchemaV1 } from "@novats/core";
 import { z } from "zod";
 
 const app = new Nova();

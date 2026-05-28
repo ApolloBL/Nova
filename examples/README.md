@@ -5,7 +5,7 @@ a real pnpm workspace package — install once at the repo root and run by name.
 
 ```bash
 pnpm install
-pnpm --filter @novajs-examples/hello-world start
+pnpm --filter @novats-examples/hello-world start
 ```
 
 ## Index

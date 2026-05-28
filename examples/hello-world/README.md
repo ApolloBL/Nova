@@ -7,7 +7,7 @@ is wired up correctly.
 
 ```bash
 pnpm install
-pnpm --filter @novajs-examples/hello-world start
+pnpm --filter @novats-examples/hello-world start
 ```
 
 Then in another terminal:

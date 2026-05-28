@@ -7,7 +7,7 @@ and the `app.onError` hook.
 
 ```bash
 pnpm install
-pnpm --filter @novajs-examples/with-errors start
+pnpm --filter @novats-examples/with-errors start
 ```
 
 ```bash

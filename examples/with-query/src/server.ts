@@ -9,9 +9,9 @@
  *   `Readonly<Record<string, string | readonly string[]>>`
  * so every access is `string | readonly string[] | undefined` (because of
  * `noUncheckedIndexedAccess`). Strict validation of query shape arrives in
- * v0.3 alongside `@novajs/validator`.
+ * v0.3 alongside `@novats/validator`.
  */
-import { Nova } from "@novajs/core";
+import { Nova } from "@novats/core";
 
 const app = new Nova();
 

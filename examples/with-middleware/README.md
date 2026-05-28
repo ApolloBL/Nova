@@ -7,7 +7,7 @@ recovery, and auth — all composed in the onion model.
 
 ```bash
 pnpm install
-pnpm --filter @novajs-examples/with-middleware start
+pnpm --filter @novats-examples/with-middleware start
 ```
 
 ```bash
@@ -50,7 +50,7 @@ synthesizes a 502 and the chain finishes normally.
 | Error recovery        | Third middleware, `try { await next() } catch`                     |
 | Auth guard            | Fourth middleware, short-circuits with 401                         |
 | Per-request state     | `ctx.state["requestId"]`                                           |
-| Typed state (preview) | `declare module "@novajs/core" { interface ContextState { ... } }` |
+| Typed state (preview) | `declare module "@novats/core" { interface ContextState { ... } }` |
 
 ## Typed `ctx.state`
 

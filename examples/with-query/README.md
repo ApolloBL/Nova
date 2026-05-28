@@ -7,7 +7,7 @@ for repeated keys.
 
 ```bash
 pnpm install
-pnpm --filter @novajs-examples/with-query start
+pnpm --filter @novats-examples/with-query start
 ```
 
 ```bash
@@ -42,7 +42,7 @@ ctx.query.ids;
 // type: string | readonly string[] | undefined
 ```
 
-Strict typing of the query shape lands in v0.3 via `@novajs/validator`:
+Strict typing of the query shape lands in v0.3 via `@novats/validator`:
 
 ```ts
 // preview, not yet implemented:

@@ -12,14 +12,14 @@
  * the relevant lines in your own code to do the same.
  */
 import { randomUUID } from "node:crypto";
-import { Nova } from "@novajs/core";
+import { Nova } from "@novats/core";
 
 // --- Typed ctx.state via module augmentation -------------------------------
 //
 // Uncomment to give `ctx.state.requestId` type `string`. The runtime behavior
 // is identical either way; this is purely for editor/typecheck ergonomics.
 //
-// declare module "@novajs/core" {
+// declare module "@novats/core" {
 //   interface ContextState {
 //     readonly requestId?: string;
 //   }

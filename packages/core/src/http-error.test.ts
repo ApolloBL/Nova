@@ -96,7 +96,7 @@ describe("HttpError", () => {
 
 describe("STATUS_NAMES", () => {
   it("includes the IETF reason phrases across 2xx, 3xx, 4xx, and 5xx", () => {
-    // The map covers success and redirect codes too because `@novajs/openapi`
+    // The map covers success and redirect codes too because `@novats/openapi`
     // uses it for response descriptions in generated specs.
     expect(STATUS_NAMES[200]).toBe("OK");
     expect(STATUS_NAMES[201]).toBe("Created");

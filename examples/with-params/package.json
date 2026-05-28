@@ -1,5 +1,5 @@
 {
-  "name": "@novajs-examples/with-params",
+  "name": "@novats-examples/with-params",
   "version": "0.0.0",
   "private": true,
   "description": "Route parameters and automatic ctx.params typing in Nova.",
@@ -9,7 +9,7 @@
     "dev": "tsx watch src/server.ts"
   },
   "dependencies": {
-    "@novajs/core": "workspace:*"
+    "@novats/core": "workspace:*"
   },
   "devDependencies": {
     "tsx": "4.7.1"

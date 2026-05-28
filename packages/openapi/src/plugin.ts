@@ -1,4 +1,4 @@
-import type { Plugin } from "@novajs/core";
+import type { Plugin } from "@novats/core";
 import { generateOpenApiDocument } from "./generator.js";
 import type { OpenApiOptions } from "./types.js";
 

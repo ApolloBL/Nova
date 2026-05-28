@@ -1,5 +1,5 @@
-import type { RegisteredRoute } from "@novajs/core";
-import type { StandardSchemaV1 } from "@novajs/validator";
+import type { RegisteredRoute } from "@novats/core";
+import type { StandardSchemaV1 } from "@novats/validator";
 import { beforeEach, describe, expect, it } from "vitest";
 import {
   _resetWarningStateForTests,

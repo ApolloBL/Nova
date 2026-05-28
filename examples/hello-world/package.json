@@ -1,5 +1,5 @@
 {
-  "name": "@novajs-examples/hello-world",
+  "name": "@novats-examples/hello-world",
   "version": "0.0.0",
   "private": true,
   "description": "The minimal Nova app. Mirrors the canonical example from the README.",
@@ -9,7 +9,7 @@
     "dev": "tsx watch src/server.ts"
   },
   "dependencies": {
-    "@novajs/core": "workspace:*"
+    "@novats/core": "workspace:*"
   },
   "devDependencies": {
     "tsx": "4.7.1"
