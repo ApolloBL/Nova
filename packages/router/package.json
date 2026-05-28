@@ -1,0 +1,54 @@
+{
+  "name": "@novajs/router",
+  "version": "1.0.0",
+  "description": "Nova framework — high-performance route matching with template-literal-typed parameters.",
+  "keywords": [
+    "nova",
+    "router",
+    "trie",
+    "http",
+    "routing",
+    "typescript"
+  ],
+  "homepage": "https://github.com/apollobl/nova/tree/main/packages/router#readme",
+  "bugs": {
+    "url": "https://github.com/apollobl/nova/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollobl/nova.git",
+    "directory": "packages/router"
+  },
+  "author": "Nova contributors",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "!dist/.tsbuildinfo",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf dist .tsbuildinfo"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

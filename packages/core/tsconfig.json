@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./.tsbuild",
+    "rootDir": "./src",
+    "composite": true,
+    "tsBuildInfoFile": "./.tsbuild/.tsbuildinfo"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", ".tsbuild", "node_modules", "**/*.test.ts"],
+  "references": [{ "path": "../router" }, { "path": "../validator" }]
+}

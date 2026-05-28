@@ -1,0 +1,17 @@
+{
+  "name": "@novajs-examples/with-errors",
+  "version": "0.0.0",
+  "private": true,
+  "description": "HttpError, factories, and onError hook in Nova.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "@novajs/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "4.7.1"
+  }
+}

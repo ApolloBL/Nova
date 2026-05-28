@@ -1,0 +1,17 @@
+{
+  "name": "@novajs-examples/with-query",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Query-string parsing via ctx.query in Nova.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "@novajs/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "4.7.1"
+  }
+}

@@ -1,0 +1,22 @@
+node_modules
+dist
+.tsbuild
+coverage
+*.log
+.DS_Store
+.env
+.env.local
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+*.tsbuildinfo
+.cache
+.turbo
+
+# Claude Code project-local state — never share.
+.claude/
+
+# Benchmark per-run output — hardware-dependent, kept out of git.
+# The canonical results live in benchmarks/README.md.
+benchmarks/results.json

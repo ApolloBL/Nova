@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/router" },
+    { "path": "./packages/validator" },
+    { "path": "./packages/openapi" },
+    { "path": "./packages/plugins" }
+  ]
+}

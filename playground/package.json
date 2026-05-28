@@ -1,0 +1,17 @@
+{
+  "name": "@novajs/playground",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Internal scratchpad for testing Nova during development. Not published.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@novajs/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "4.7.1"
+  }
+}

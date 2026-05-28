@@ -1,0 +1,17 @@
+{
+  "name": "@novajs-examples/hello-world",
+  "version": "0.0.0",
+  "private": true,
+  "description": "The minimal Nova app. Mirrors the canonical example from the README.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "@novajs/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "4.7.1"
+  }
+}

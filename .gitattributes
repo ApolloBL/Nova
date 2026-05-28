@@ -1,0 +1,13 @@
+# Force LF line endings on disk for every text file, regardless of platform.
+# Keeps diffs portable across Windows / macOS / Linux contributors.
+* text=auto eol=lf
+
+# Binary assets should never be normalized.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary

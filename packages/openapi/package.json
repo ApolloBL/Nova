@@ -1,0 +1,59 @@
+{
+  "name": "@novajs/openapi",
+  "version": "1.0.0",
+  "description": "Nova framework — automatic OpenAPI 3.1",
+  "keywords": [
+    "nova",
+    "openapi",
+    "swagger",
+    "openapi-3.1",
+    "documentation",
+    "schema",
+    "typescript"
+  ],
+  "homepage": "https://github.com/apollobl/nova/tree/main/packages/openapi#readme",
+  "bugs": {
+    "url": "https://github.com/apollobl/nova/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollobl/nova.git",
+    "directory": "packages/openapi"
+  },
+  "author": "Maykeel Santana",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "!dist/.tsbuildinfo",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf dist .tsbuildinfo"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@novajs/core": "workspace:^",
+    "@novajs/validator": "workspace:^"
+  }
+}
